@@ -27,7 +27,7 @@ This project builds a movie recommendation system based on the MovieLens 100K da
 
 ## 🚀 How to Run
 
-### ▶️ Local Execution (macOS with Apple M1/M2 GPU Support)
+### ▶️ Local Execution 
 
 1. **Setup environment**
    ```bash
@@ -44,17 +44,18 @@ python app.py
 
 ---
 
-🌐 Deploy to Hugging Face Spaces
+## 🌐 How to Deploy in Hugging Face Spaces
 1.	Upload the following files to your Space:
-	•	app.py: main Gradio script
-	•	export.pkl: fastai-trained model file
-	•	ratings.csv: dataset with user id, movie id, and title
-	•	requirements.txt: specify compatible dependencies
+
+- app.py: main Gradio script
+- export.pkl: fastai-trained model file
+- ratings.csv: dataset with user id, movie id, and title
+- requirements.txt: specify compatible dependencies
 	
- 2.	Space Runtime:
+ 3.	Space Runtime:
 Select Gradio (Python) as the app type.
 	
- 3.	Note on Compatibility:
+ 4.	Note on Compatibility:
 	•	The exported model relies on fastai<2.8.0 due to deprecation of fastcore.transform.
 Include this in your requirements.txt:
 ```bash
@@ -63,7 +64,7 @@ fastai==2.7.12
 
 ---
 
- 🛠️ Challenges & Solutions
+ ## 🛠️ Challenges & Solutions
 
 | Issue | Description | Solution |
 |-------|-------------|----------|
@@ -76,7 +77,7 @@ fastai==2.7.12
 
 ---
 
-📈 Performance Snapshot 📙 0063_movie_recommend_CF.ipynb
+## 📈 Performance Snapshot 📙 0063_movie_recommend_CF.ipynb
 
 | Model Variant        | RMSE   | MAE   |
 |----------------------|--------|-------|
@@ -89,7 +90,7 @@ fastai==2.7.12
 
 ---
 
-📎 Demo
+## 📎 Demo
 
 Try the live demo here (Gradio UI hosted on Hugging Face):
 👉 Demo Link：https://huggingface.co/spaces/apple9855/movie-recommend 
@@ -98,7 +99,7 @@ Try the live demo here (Gradio UI hosted on Hugging Face):
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 This project was built as part of a deep learning portfolio, demonstrating practical skills in:
 
