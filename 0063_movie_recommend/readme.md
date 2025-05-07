@@ -77,7 +77,8 @@ fastai==2.7.12
 
 ---
 
-## 📈 Performance Snapshot 📙 0063_movie_recommend_CF.ipynb
+## 📈 Performance Snapshot 
+More details in 📙 0063_movie_recommend_CF.ipynb
 
 | Model Variant        | RMSE   | MAE   |
 |----------------------|--------|-------|
