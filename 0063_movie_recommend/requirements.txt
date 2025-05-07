@@ -1,0 +1,4 @@
+gradio
+pandas
+torch
+fastai<2.8
