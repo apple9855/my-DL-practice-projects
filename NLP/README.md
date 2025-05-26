@@ -21,7 +21,7 @@ This folder contains multiple projects focusing on two key NLP tasks:
 ## 🧠 Model Architectures Used
 
 - [`microsoft/deberta-v3-base`](https://huggingface.co/microsoft/deberta-v3-base) for phrase regression
-- [`dmis-lab/biobert-base-cased-v1.1`](https://huggingface.co/dmis-lab/biobert-base-cased-v1.1) for biomedical NER
+- [`dmis-lab/biobert-base-cased-v1.2`](https://huggingface.co/dmis-lab/biobert-base-cased-v1.1) for biomedical NER
 - [`yiyanghkust/finbert-pretrain`](https://huggingface.co/yiyanghkust/finbert-pretrain) for financial NER
 
 ---
@@ -36,12 +36,14 @@ This folder contains multiple projects focusing on two key NLP tasks:
 
 ---
 
-## 📦 Datasets Used
+## 📚 References
 
-- [U.S. Patent Phrase Matching](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching)
-- [BC5CDR](https://huggingface.co/datasets/bigbio/bc5cdr)
-- [NCBI Disease Corpus](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/)
-- [FiNER-139](https://github.com/nlpaueb/finer)
+| Notebook | Source / Paper |
+|----------|----------------|
+| `008_NLP_UsPatent_deberta.ipynb` | Kaggle Competition: [U.S. Patent Phrase to Phrase Matching](https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching) <br> Model: [DeBERTa: Decoding-enhanced BERT with Disentangled Attention](https://arxiv.org/abs/2006.03654) |
+| `009_0_NER_BC5CDR.ipynb` | Dataset: [BC5CDR Corpus](https://www.biocreative.org/tasks/biocreative-v/track-3-cdr/) <br> Paper: [Li et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27161011/) |
+| `009_1_NER_NCBI.ipynb` | Dataset: [NCBI Disease Corpus](https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/) <br> Paper: [Dogan et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24393765/) |
+| `009_2_NER_FiNER139.ipynb` | Dataset: [FiNER-139](https://github.com/nlpaueb/finer) <br> Paper: [Xypolopoulos et al., 2021](https://arxiv.org/abs/2108.13441) |
 
 ---
 
