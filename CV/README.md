@@ -18,14 +18,13 @@ This module presents a series of end-to-end computer vision projects covering **
 
 ## 🧱 Structure & Dataset Summary
 
-| Notebook | Dataset | Notes |
-|----------|---------|-------|
-| `001` | Bird images from DuckDuckGo | Collected via `fastdownload` + custom labeling |
-| `002` | Oxford-IIIT Pet Dataset | Custom binary split (cat vs. non-cat) |
-| `003` | PASCAL VOC 2007 / BIWI Head Pose | Multi-label Image Classification + 3D Pose Image Regression |
-| `005` | Imagenette (subset of ImageNet) | SOTA techniques - Progressive resizing, Mixup, TTA, Label smoothing |
-| `007` | Paddy Disease Classification (Kaggle) | Multi-class fine-grained leaf classification, model comparisons |
-
+| Notebook | Dataset | Task Type | Notes |
+|----------|---------|-----------|-------|
+| `001` | DuckDuckGo image search (custom) | Binary Classification | Bird classifier with minimal fastai pipeline |
+| `002` | Oxford-IIIT Pet Dataset | Binary Classification | Cat vs. Non-Cat split with pretrained ResNet & FastAI |
+| `003` | PASCAL VOC 2007 / BIWI Head Pose | Multi-label Classification & Image Regression | TIMM-based CNNs for multi-object detection + 2D/3D head pose prediction |
+| `005` | Imagenette (subset of ImageNet) | Image Classification Optimization | Baseline vs. SOTA training techniques (Mixup, TTA, Label Smoothing) |
+| `007` | Paddy Disease Classification (Kaggle) | Multi-class Fine-grained Classification | CNN vs. Vision Transformers; Ensemble modeling for leaderboard performance |
 ---
 
 ## 🧠 Model Architectures Used
@@ -39,21 +38,24 @@ This module presents a series of end-to-end computer vision projects covering **
 
 ## 🔧 Skills Demonstrated
 
-- ✅ FastAI `DataBlock` API for dynamic image pipelines  
-- ✅ Transfer Learning & Fine-tuning on pretrained models  
-- ✅ Multi-label modeling with `BCEWithLogitsLoss`  
-- ✅ Image regression & coordinate transformation  
-- ✅ Performance tuning: Progressive Resizing, MixUp, Label Smoothing  
-- ✅ Inference Boosting: TTA (Test Time Augmentation)  
-- ✅ Visual analysis: Confusion Matrix, Prediction plots  
-- ✅ Model benchmarking & Kaggle submission flow  
+- ✅ **Image classification workflows** using `fastai`'s `DataBlock` API  
+- ✅ **Transfer learning** and fine-tuning across multiple pretrained backbones (CNNs, ViTs, Swin, RegNetY)  
+- ✅ **Multi-label classification** with `BCEWithLogitsLossFlat` and threshold calibration  
+- ✅ **Image regression** with pixel-to-real-world coordinate conversion (BIWI head pose)  
+- ✅ **Training optimizations**: Progressive Resizing, MixUp, Label Smoothing  
+- ✅ **Inference enhancements**: Test Time Augmentation (TTA) and ensemble voting  
+- ✅ **Model comparison & benchmarking** across architecture families (ResNet vs ViT vs Swin)  
+- ✅ **Compute-aware model selection**: Adaptation for MPS backend (Apple Silicon)  
+- ✅ **Kaggle-style development cycle**: From EDA to submission with leaderboard evaluation  
+- ✅ **Result visualization & error analysis**: Confusion matrix, prediction overlay plots
 
 ---
 
 ## 📚 References
 
-- fastai Book / Course: [`fastbook`](https://github.com/fastai/fastbook)
+- fastai [`Doc`](https://docs.fast.ai/) & Book / Course: [`fastbook`](https://github.com/fastai/fastbook)
 - TIMM Library: [`rwightman/pytorch-image-models`](https://github.com/rwightman/pytorch-image-models)
+- torchvision [`Table of all available classification weights`](https://docs.pytorch.org/vision/stable/models.html#table-of-all-available-classification-weights)
 - Papers:
   - Swin Transformer: [Liu et al. (2021)](https://arxiv.org/abs/2103.14030)
   - ViT (SWAG pretrained): [Wightman et al. (2021)](https://arxiv.org/abs/2110.03599)
