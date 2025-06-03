@@ -1,4 +1,4 @@
-# 🧠 Computer Vision Module – Deep Learning Practice Showcase
+# 🖼️ Computer Vision Module – Deep Learning Practice Showcase
 
 This module presents a series of end-to-end computer vision projects covering **image classification**, **multi-label learning**, **image regression**, and **model optimization techniques**, with a focus on **practical implementation** using PyTorch, FastAI, and TIMM.
 
@@ -7,11 +7,11 @@ This module presents a series of end-to-end computer vision projects covering **
 
 | Notebook | Title | Task Type |
 |----------|-------|-----------|
-| `001_imgcls_bird_classifier.ipynb` | 🐦 Bird-or-Not Classifier | Binary Classification |
+| `001_imgcls_bird_classifier.ipynb` | 🐦 Bird-or-Not Classifier | Binary Classification with Custom Dataset|
 | `002_imgcls_oxfordpets_binary.ipynb` | 🐈 Oxford-IIIT Pet – Binary Classification (Cat vs Non-cat) | Binary Classification |
 | `003_multilabel_imgreg_timm.ipynb` | 📸 Multi-label Classification + Image Regression with TIMM | Multi-label Classification / Image Regression |
-| `005_imgcls_imagenette_optim.ipynb` | Optimizing Image Classification on Imagenette with fastai: From Baseline to SOTA Techniques | Classification + Augmentation |
-| `007_imgcls_paddy_disease_benchmark.ipynb` | 🌾 Benchmarking CNNs and Vision Transformers for Paddy Disease Classification (Kaggle) | SOTA Models Benchmarking + Kaggle Submission |
+| `005_imgcls_imagenette_optim.ipynb` | Optimizing techniques of Image Classification on Imagenette with fastai: From Baseline to SOTA Techniques | Classification + Augmentation |
+| `007_imgcls_paddy_disease_benchmark.ipynb` | 🌾 Benchmarking CNNs and Vision Transformers for Paddy Disease Classification (Kaggle) | SOTA Models Benchmarking + Kaggle |
 
 
 ## 🧱 Structure & Dataset Summary
