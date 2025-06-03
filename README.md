@@ -19,7 +19,7 @@ Each subfolder includes multiple real-world projects, structured to demonstrate 
 |-----------|--------|-------------|
 | 🖼️ Computer Vision | [`CV/`](CV/) | Image classification, Multi-label learning, Image regression, Optimization techniques |
 | 📚 Natural Language Processing | [`NLP/`](NLP/) | Named entity recognition, Semantic similarity scoring, Language modeling, Transfer learning, Domain-adaptive process |
-| 📊 Tabular Regression | [`TabularRegression/`](TabularRegression/) | Classification, Regression, Tree-based modeling, Feature engineering, Recommendation system, Ensemble strategies |
+| 📊 Tabular Modeling | [`TabularModeling/`](TabularModeling/) | Binary-classification, Regression, Tree-based modeling, Feature engineering, Recommendation system, Ensemble strategies |
 | 🎨 Generative Models | [`StableDiffusion/`](StableDiffusion/) | Diffusion models, Image generation, Training strategies |
 
 ---
